@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+   
+   <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+      <h1 class="titu ">ABSPORTS</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto navegador">
+
+          <li class="nav-item active">
+            <a class="op" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="op" href="#">Catalogo</a>
+          </li>
+          <li class="nav-item">
+            <a class="op" href="#">Novedades</a>
+          </li>
+          <li class="nav-item">
+            <a class="op" href="#">Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a class="op" href="#">Personalizar</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control buscar" type="text" placeholder="Buscar" id="buscars" onkeyup="buscador()">
+               <ul id="sugerencias"></ul>
+        </form>
+      </div>
+    </nav>
+
+      <div class=" row registro">
+      	<div class="col-md-2">
+      <img src="imagenes/LogoUsuario.jpg" width="30" height="25" alt="Usuario"/>
+      <a href="formulario1/index.html">Logeo | Signup</a>
+       </div>
+       <div class="col-md-9"></div>
+      <div class="col-md-1">
+      <a href="#Ayuda">Ayuda | </a>
+        <a href="#CambiarIdioma"><img src="imagenes/Globo.png" width="20" height="20" alt="Cambiar idioma"/></a>
+        </div>
+        
+       </div>  
+
+      <div class="row portada d-flex justify-content-center">
+        <img class="wind col-md-6" src="imagenes/escala.jpg " alt="Windsurf"/>
+      <div class="activi">
+        <h2><b>EXTREMO</b></h2>
+        <p><b>Realiza actividades extremas, por lugares inimaginables cerca de tí, por el mejor precio.</b></p>
+        <input type="image" src="imagenes/boton.png" name="buscaActividades" alt="Busca actividades"/>
+      </div>
+      </div>
+
+
+    <div class="row articulo">
+
+       <div class=" col-md-4 col-12 art1">
+        <img src="imagenes/correr.jpg" alt="Articulo"/>
+       <div class="overlay">
+      <div id="comentarios" class="text"><img class="a" src="imagenes/coment.png" alt="comentaio"/><img id="fav" src="imagenes/megustaotro.png" alt="megusta"/><div id="todo"></div></div>
+       </div>
+       </div>
+
+       <div class=" col-md-4 col-12 art2">
+       <img src="imagenes/futbol.jpg" alt="Articulo"/>
+  <div class="overlay">
+    <div id="comentarios1" class="text"><img class="b" src="imagenes/coment.png" alt="comentaio1" /><img id="fav1" src="imagenes/megustaotro.png" alt="megusta1"/><div id="todo1"></div></div>
+  </div>
+       </div>
+       
+
+       <div class="col-md-4 col-12 art3">
+      <img  src="imagenes/Sneakers.jpg" alt="Articulo"/>
+      <div class="overlay">
+     <div id="comentarios2" class="text"><img class="c" src="imagenes/coment.png" alt="comentaio2"/><img id="fav2" src="imagenes/megustaotro.png" alt="megusta2"/><div id="todo2"></div></div>
+     </div>
+       </div>
+    
+     </div>
+     
+     
+   <div id="demo" class="carousel slide col-md-6 col-12" data-ride="carousel">
+
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="foto" src="imagenes/correr.jpg"  alt="correr">
+    </div>
+    <div class="carousel-item">
+      <img class="foto" src="imagenes/futbol.jpg"  alt="futbol">
+    </div>
+    <div class="carousel-item">
+      <img class="foto" src="imagenes/Windsurf.png" alt="Windsurf">
+    </div>
+  </div>
+
+ 
+  <a class="carousel-control-prev izq" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next der" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+    </div>
+
+   
+
+   
+    <div class="actividades col-md-12 col-12">
+      <h3>A C T I V I D A D E S</h3>
+     </div>
+    
+
+   
+      
+       <div class="row justify-content-center">
+       <div class="col-md-6 col-12 py-2"/>
+        <img class="alpi" src="imagenes/alpinismo.jpg" alt="alpi" />
+        <div class="row">
+        <div class="carta col-12 "/>
+        <h3>Escalada Cataratas</h3>
+        <p>Puede realizar una aventura inolvidable al escalar diferentes cataratas con monitores y todos los equipos de seguridad, para poder probar su valentia, tenemos una oferta solo para los afiliados de 12 cataratas consulte en la pesataña actividades.</p>
+       </div>
+       </div>
+       </div>
+       <div class="col-md-6 col-12 py-2"/>
+        <img class="paraca" src="imagenes/paracas.jpg" alt="alpi" />
+        <div class="row">
+        <div class="carta1 col-12"/>
+        <h3>Salto Paracaidas</h3>
+        <p>Realiza el salto de tu vida,Es una de las modalidades más practicadas, diariamente, en todo el mundo, para conocer y experimentar la caída libre, en un salto a 4000 metros de altura.</p>
+       </div>
+       </div>
+       </div> 
+       </div>
+       
+      
+   
+
+   
+
+   <footer class="mainfooter" role="contentinfo">
+  <div class="footer-top p-y-2">
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-xl-4"></div>
+        <div class="col-xl-4 redes d-flex justify-content-center">
+          <a class="face" href="#Facebook"><img alt="Síguenos en Facebook" height="35" width="35" src="imagenes/Facebook.png" title="Síguenos en Facebook"/></a>
+          <a class="twit" href="#Twitter"><img alt="Síguenos en Twitter" height="35" width="35" src="imagenes/Twitter.png" title="Síguenos en Twitter"/></a>
+          <a class="insta" href="#Instagram"><img alt="Síguenos en Instagram" height="35" width="35" src="imagenes/Instagram.png" title="Síguenos en Instagram"/></a>
+         <a class="you" href="#YouTube"><img alt="Síguenos en YouTube" height="35" width="35" src="imagenes/YouTube.png" title="Síguenos en YouTube"/></a>
+        </div>
+        <div class="col-xl-4"></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xl-3">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Localización</h4>
+          <address>
+                <ul class="list-unstyled">
+                  <li>
+                    Ciudad Madrid<br>
+                    C/ Serrano 212<br>
+                  </li>
+                  <li>
+                    Telefono: 999999
+                  </li>
+                </ul>
+              </address>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xl-3">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Servicios</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Forma de pago</a></li>
+            <li><a href="#">Contacto direccion</a></li>
+            <li><a href="#">Formularios</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xl-3">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Informacion de la Web</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Tutorial web</a></li>
+            <li><a href="#">Accesibilidad</a></li>
+            <li><a href="#">Politica de privacidad</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xl-3">
+        <!--Column1-->
+        <div class="footer-pad departa">
+          <h4>Departamento Actividades</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Informacion</a></li>
+            <li><a href="#">Novedades</a></li>
+            <li><a href="#">Telefono</a></li>
+            <li><a href="#">E-mail</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <!--Footer Bottom-->
+          <p class="text-xs-center copy">&copy; Copyright 2018.  All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript" src="js/jquery3.3.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+   
+</body>
+</html>
